@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build & Test') {
       steps {
-        sh 'sh \'test.sh\''
+        sh 'sh http.sh'
       }
     }
 
