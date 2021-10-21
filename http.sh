@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo mkdir /web
+sudo mkdir /web2
