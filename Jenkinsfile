@@ -1,9 +1,9 @@
 pipeline {
   agent none
   stages {
-    stage('error') {
+    stage('Build & Test') {
       steps {
-        sh 'sh http.sh'
+        sh 'sh test.sh'
       }
     }
 
