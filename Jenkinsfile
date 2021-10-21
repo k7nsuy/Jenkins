@@ -1,10 +1,9 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('') {
       steps {
-        sh '''#!/bin/bash
-echo "blueocean start"'''
+        sh 'sh http.sh'
       }
     }
 
